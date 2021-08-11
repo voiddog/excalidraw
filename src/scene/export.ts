@@ -121,6 +121,11 @@ export const exportToSvg = async (
         font-family: "Cascadia";
         src: url("https://excalidraw.com/Cascadia.woff2");
       }
+      @font-face {
+        font-family: "FZMiaoWuJW";
+        src: url("FZMiaoWuJW.TTF");
+        font-display: swap;
+      }
     </style>
   </defs>
   `;
